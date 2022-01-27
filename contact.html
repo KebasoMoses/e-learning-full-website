@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>University Website - Kebaso Moses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="closeMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Contact us</h1>
+        </div>
+    </section>
+
+<!-- Contact us Html -->
+
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31917.851720647504!2d35.931378599999995!3d-0.3780593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182987e88ed4a835%3A0xd17ab41538bef8f6!2sEgerton%20University%20-%20Njoro!5e0!3m2!1sen!2ske!4v1643292269289!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+
+</section>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+            <span>
+                <h5>ABC Road, 123 street</h5>
+                <p>Nakuru,KEN</p>
+            </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+            <span>
+                <h5>0712345678</h5>
+                <p>Mon-Friday</p>
+            </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+            <span>
+                <h5>info@kebaso.co.ke</h5>
+                <p>Email me your enquiries..</p>
+            </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter email adress" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea rows="8" name="message" placeholder="Message.."></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+
+ 
+
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+ <!-- FOOTER HTML -->
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Eius labore error sequi id aliquid. <br>  Cupiditate exercitationem 
+         fuga illo culpa corporis.
+    </p>
+    <div class="icons">
+        <a href="https://github.com/KebasoMoses"><i class="fa fa-github"></i></a></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Kebaso Moses</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.left = "0";
+    }
+    function closeMenu(){
+        navLinks.style.left = "-200px";
+    }
+</script>
+
+
+</body>
+</html>

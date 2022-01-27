@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>University Website - Kebaso Moses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="closeMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Courses</h1>
+        </div>
+    </section>
+
+<!-- Course Section -->
+
+<section class="course">
+    <h1>Courses we offer</h1>
+    <p>These are the three types of courses we currently offer, hope to see you soon.</p> 
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Explicabo iusto perferendis quae sapiente expedita 
+                molestiae itaque ad in culpa similique!
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Advanced</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Explicabo iusto perferendis quae sapiente expedita 
+                molestiae itaque ad in culpa similique!
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Mastery</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Explicabo iusto perferendis quae sapiente expedita 
+                molestiae itaque ad in culpa similique!
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Our facilities page -->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>These are the best facilities in our university.<br>Have fun!</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="Images/library.png" alt="library">
+            <h3>Our Library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nesciunt quod, 
+                quaerat nam porro aliquam adipisci consequatur assumenda suscipit vel.
+            </p>
+        </div>
+        <div class="facilities-col">
+            <img src="Images/basketball.png" alt="library">
+            <h3>Our beautiful basketball court</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nesciunt quod, 
+                quaerat nam porro aliquam adipisci consequatur assumenda suscipit vel.
+            </p>
+        </div>
+        <div class="facilities-col">
+            <img src="Images/cafeteria.png" alt="library">
+            <h3>Our Tasty Cafeteria</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nesciunt quod, 
+                quaerat nam porro aliquam adipisci consequatur assumenda suscipit vel.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+ <!-- FOOTER HTML -->
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Eius labore error sequi id aliquid. <br>  Cupiditate exercitationem 
+         fuga illo culpa corporis.
+    </p>
+    <div class="icons">
+        <a href="https://github.com/KebasoMoses"><i class="fa fa-github"></i></a></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Kebaso Moses</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.left = "0";
+    }
+    function closeMenu(){
+        navLinks.style.left = "-200px";
+    }
+</script>
+
+
+</body>
+</html>

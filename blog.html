@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>University Website - Kebaso Moses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="closeMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Our programs for the last summer & Certificates awarded</h1>
+        </div>
+    </section>
+
+    <!-- Blog content -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="Images/certificate.jpg" alt="certificate">
+                <h2>Last summer competition programme & awards</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eius quis alias provident, amet nam nulla soluta sed pariatur excepturi officia sint animi! Nesciunt delectus doloremque maiores minus dolores. Recusandae officia harum fugit incidunt numquam corrupti est ratione modi repellendus.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nobis repudiandae dolore, id, labore at sequi est accusantium vero fuga fugiat maiores ducimus rerum eveniet voluptates dolor quam in quos aliquid aperiam natus expedita? Eveniet corrupti tempora ex suscipit dolore?</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae aperiam repellat, quia ad omnis, nemo nisi error necessitatibus odit assumenda facere praesentium quidem quas sunt animi tempora est repudiandae accusamus incidunt odio eaque. In ut iure debitis nam minus? Non.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate incidunt aliquam saepe aut, rem eveniet autem alias nobis iure laudantium neque est nesciunt quod, non, voluptatum vero quidem consequuntur fugiat ipsum. Quibusdam natus ratione molestias impedit illum reprehenderit ex, inventore exercitationem, ab alias quasi dignissimos! Quos mollitia aut debitis deserunt.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment..</h3>
+
+                    <form class="commment-form">
+                        <input type="text" placeholder="Enter your name">
+                        <input type="email" placeholder="Enter your Email">
+                        <textarea rows="5" placeholder="Input your commment.."></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST YOUR COMMENT</button> 
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Artificial Intelligence</span>
+                    <span>06</span>
+                </div>
+                <div>
+                    <span>Animal husbandry</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Textile manufacturing</span>
+                    <span>19</span>
+                </div>
+                <div>
+                    <span>Tea Farming</span>
+                    <span>08</span>
+                </div>
+                <div>
+                    <span>Economics</span>
+                    <span>13</span>
+                </div>
+                <div>
+                    <span>Tertial Institutions</span>
+                    <span>30</span>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+ <!-- FOOTER HTML -->
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Eius labore error sequi id aliquid. <br>  Cupiditate exercitationem 
+         fuga illo culpa corporis.
+    </p>
+    <div class="icons">
+        <a href="https://github.com/KebasoMoses"><i class="fa fa-github"></i></a></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Kebaso Moses</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.left = "0";
+    }
+    function closeMenu(){
+        navLinks.style.left = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
